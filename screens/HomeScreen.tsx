@@ -140,7 +140,7 @@ export default function HomeScreen() {
     setProcessing(true);
     setTimeout(() => {
       setProcessing(false);
-      setRecognitionResult('Hello');
+      setRecognitionResult('Xin chào');
       setIsCameraActive(false);
       setModalVisible(true);
     }, 2000);
